@@ -10,7 +10,8 @@ def apply_log_transformation(data):
     return np.log(data)
 
 ## -- Modelo  -- #
-pkl_file_path = 'c:/Users/carlo/OneDrive/git-repositorios/tag2u/e-commerce_regressao/pipelines/modelos/precificacao_260923_joblib_vm_temopoestoque.pkl'
+#pkl_file_path = 'c:/Users/carlo/OneDrive/git-repositorios/tag2u/e-commerce_regressao/pipelines/modelos/precificacao_260923_joblib_vm_temopoestoque.pkl'
+pkl_file_path = './pipelines/modelos/precificacao_260923_joblib_vm_temopoestoque.pkl'
     
 # Carregar o arquivo .pkl com joblib
 with open(pkl_file_path, 'rb') as model_file:
