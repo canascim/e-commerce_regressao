@@ -23,3 +23,5 @@ schemdraw==0.15
 tqdm==4.62.0
 xxhash
 sktime==0.22.0 
+altari==4.0.0
+scipy==1.10.1
