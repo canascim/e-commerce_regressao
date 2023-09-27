@@ -10,7 +10,7 @@ def apply_log_transformation(data):
     return np.log(data)
 
 ## -- Modelo  -- #
-pkl_file_path = 'c:/Users/carlo/OneDrive/git-repositorios/tag2u/e-commerce/streamlit/data/precificacao_180923_joblib.pkl'
+pkl_file_path = 'c:/Users/carlo/OneDrive/git-repositorios/tag2u/e-commerce_regressao/pipelines/modelos/precificacao_260923_joblib_vm_temopoestoque.pkl'
     
 # Carregar o arquivo .pkl com joblib
 with open(pkl_file_path, 'rb') as model_file:
@@ -25,6 +25,9 @@ def user_input_features():
     st.sidebar.header("Entre com os dados do produto")
     valor_mercado = st.sidebar.number_input('Digite o valor de mercado do produto:', min_value=0, step=1)
     tempo_estoque= st.sidebar.number_input('Digite o valor de tempo_estoque do produto:', min_value=0, step=1)
+    #valor_mercado = st.sidebar.slider('Digite o valor de mercado do produto:', min_value=0,max_value=5000)
+    #tempo_estoque= st.sidebar.slider('Digite o valor de tempo_estoque do produto:', min_value=0, max_value=365)
+
 
     # Verificar se os valores são maiores que zero antes de aplicar o logaritmo
     if valor_mercado > 0 and tempo_estoque > 0:
