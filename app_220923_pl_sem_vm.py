@@ -28,7 +28,7 @@ profundidade = st.slider(label='Coloque a profundidade do produto', min_value=0.
 
 
 ## Carregando o modelo #
-pkl_file_path = './precificacao_230923_joblib_pl_sem_vm.pkl'
+pkl_file_path = './data/precificacao_230923_joblib_pl_sem_vm.pkl'
     
 # Carregar o arquivo .pkl com joblib
 with open(pkl_file_path, 'rb') as model_file:
