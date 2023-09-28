@@ -14,8 +14,7 @@ dash==2.13.0
 nbformat==5.9.2
 fastjsonschema
 plotly-resampler==0.9.1 
-orjson==3.8.0
-plotly-resampler==0.9.1 
+orjson==3.8.0 vc
 trace-updater==0.0.8
 pycaret==3.0.4 
 kaleido==0.2.1
