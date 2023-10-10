@@ -17,7 +17,7 @@ st.header('TAG2U')
 #Widgets
 
 # Obter valores do usuário
-valor_mercado = st.slider(label='Coloque valor de mercado do produto', min_value=0.0, max_value = 1150.0,  key='valor_mercado')
+valor_mercado = st.slider(label='Coloque valor de mercado do produto', min_value=0.0, max_value = 4500.0,  key='valor_mercado')
 material = st.text_input('Digite o material do produto:', key='material')
 cor = st.text_input('Digite a cor do produto:', key = 'cor')
 categoria = st.text_input('Digite a categoria do produto:', key= 'categoria')
